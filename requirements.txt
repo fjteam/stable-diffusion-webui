@@ -16,7 +16,7 @@ lark
 numpy
 omegaconf
 open-clip-torch
-
+xformers
 piexif
 psutil
 pytorch_lightning

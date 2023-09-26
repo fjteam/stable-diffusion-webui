@@ -195,8 +195,8 @@ def restore_old_hires_fix_params(res):
         return
 
     firstpass_width, firstpass_height = int(firstpass_width), int(firstpass_height)
-    width = int(res.get("Size-1", 512))
-    height = int(res.get("Size-2", 512))
+    width = int(res.get("Size-1", 1024))
+    height = int(res.get("Size-2", 1024))
 
     if firstpass_width == 0 or firstpass_height == 0:
         firstpass_width, firstpass_height = processing.old_hires_fix_first_pass_dimensions(width, height)

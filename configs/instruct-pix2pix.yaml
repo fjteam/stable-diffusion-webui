@@ -91,8 +91,8 @@ data:
         min_image_sim: 0.75
         min_direction_sim: 0.2
         max_samples_per_prompt: 1
-        min_resize_res: 512
-        max_resize_res: 512
-        crop_res: 512
+        min_resize_res: 1024
+        max_resize_res: 1024
+        crop_res: 1024
         output_as_edit: False
         real_input: True
