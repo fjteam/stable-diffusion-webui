@@ -23,7 +23,6 @@ pytorch_lightning
 realesrgan
 requests
 resize-right
-
 safetensors
 scikit-image>=0.19
 timm

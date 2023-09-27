@@ -187,7 +187,7 @@ class Toprow:
                 with gr.Row():
                     with gr.Column(scale=80):
                         with gr.Row():
-                            self.negative_prompt = gr.Textbox(label="Negative prompt", elem_id=f"{id_part}_neg_prompt", show_label=False, lines=3, placeholder="Negative prompt (press Ctrl+Enter or Alt+Enter to generate)", elem_classes=["prompt"])
+                            self.negative_prompt = gr.Textbox(label="Negative prompt ", elem_id=f"{id_part}_neg_prompt", show_label=False, lines=3, placeholder="Negative prompt (press Ctrl+Enter or Alt+Enter to generate)", elem_classes=["prompt"], value=""" deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, ugly, disgusting, amputation, 3d, render, cartoon, anime, drawing, painting,, [[[black and dark armor]]], closeup, ugly eyes, deformed iris, naked, nipples, genitalia """)
 
             self.button_interrogate = None
             self.button_deepbooru = None
